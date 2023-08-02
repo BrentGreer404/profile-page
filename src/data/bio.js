@@ -22,5 +22,5 @@ export const bio = [` I have a passion for problem-solving. I love to troublesho
  filling my toolbox to work with a new medium, coding. I started with the desire to build my 
  own video game and spent hundreds of hours learning the language and the fundamentals of 
  programming. Once I had learned a good amount, I decided that I wanted to work on something more
-  important, something. This is why I joined the web development program at Bloomtech where I 
+  important. This is why I joined the web development program at Bloomtech where I 
   learned the skills to make a career that could help make a difference.`]
