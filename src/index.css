@@ -1,0 +1,173 @@
+:root {
+  --color-blue: #A1CCD1;
+  --color-white: #F4F2DE;
+  --color-orange: #E9B384;
+  --color-green: #7C9D96;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-white);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-blue);
+  height: 25vh;
+  margin-bottom: 5vh;
+}
+
+.header h1 {
+  height: 25%;
+  margin: auto;
+  margin-bottom: 0;
+}
+
+.header h2 {
+  margin: auto;
+  margin-top: 0;
+}
+
+.nav-bar {
+  display: flex;
+  height: 20%;
+  width: 60%;
+  margin: auto;
+  justify-content: center;
+}
+
+.nav-bar a {
+  display: flex;
+  margin: 0 5px;
+  flex-direction: column;
+  width: 20%;
+  height: auto;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+  background-color: var(--color-white);
+  color:black;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+.nav-bar a:hover {
+  transition-duration: 1s;
+  background-color: var(--color-orange);
+}
+
+.social-links {
+  margin: 1%;
+  display: flex;
+  width: 5%;
+  height: 2%;
+}
+
+.social-link{
+  margin: 2px;
+}
+.social-link img{
+  max-width: 100%;
+  height: auto;
+  margin: 10px;
+}
+
+.landing-page{
+  width:90%;
+  margin: auto;
+}
+
+.skills-container{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+.skill{
+  margin: auto;
+  font-size: 1rem;
+  font-weight: light;
+}
+
+.about-me{
+  margin: auto;
+  margin-top: 10vh;
+  width: 75%;
+}
+
+.about-me p{
+  margin-bottom: 5vh;
+}
+
+.projects-title{
+  text-align: center;
+  margin-bottom: 5vh;
+}
+
+.projects-container{
+  width:90%;
+  margin: auto;
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.project{
+  width: 30%;
+  text-align: center;
+  background-color: var(--color-blue);
+  border-radius: 5px;
+  margin-bottom: 5vh;
+}
+
+.project:hover{
+  background-color: var(--color-orange);
+  transition-duration: 1s;
+}
+
+.project a{
+  text-decoration: none;
+  color: black;
+}
+
+.project img{
+  max-width: 100%;
+  height: auto;
+}
+
+.project:hover img{
+  opacity: 0;
+  transition-duration: 1s;
+}
+
+.project:hover .project-notes{
+  opacity: 1;
+  transition-duration: 1s;
+}
+
+.project-notes{
+  display:flex;
+  flex-direction: column;
+  width:90%;
+  margin: auto;
+  margin-top: -28vh;
+  opacity: 0;
+}
+
+
+
+.project-notes li{
+  margin: 1vh;
+  font-size: .9rem;
+}
